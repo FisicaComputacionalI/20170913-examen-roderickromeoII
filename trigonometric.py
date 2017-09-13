@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #Declaramos una funcion que nos devuelva f(x) = sin(pi*t+C) (C = El anio que ingrese a la universidad = 2015)
 def f(t):
-    return np.sin(np.pi*t+ 2015)
+    return np.sin(2*np.pi*t)+ 2015
 #Definimos el rango de dos variables y el intervalo en el que cambian
 t1 = np.arange(0.0,2,0.001)
 t2 = np.arange(0.0,2,0.125)
